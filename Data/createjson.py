@@ -1,9 +1,6 @@
 import json
-
-with open("data.json", "w+") as f:
-	jsonData = eval(f.read())
-
-
+with open("data.json") as f :
+	jsonData = json.load(f)
 	while True:
 		mode = input("Enter i to insert d to delete v to view e to exit")
 		if mode == "i":
@@ -29,6 +26,3 @@ with open("data.json", "w+") as f:
 
 
 	print("Bye")
-
-
-
