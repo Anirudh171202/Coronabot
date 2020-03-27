@@ -17,4 +17,8 @@
 15.should i wear a mask to protect myself
 16.can i catch COVID-19 from my pet?
 17.how long does the virus survive?
+18.what should i do if i contract any of the symptoms
+19.is there quarantine in x country?
+20.what are the precautions to be taken for home qaurantine
+
 
