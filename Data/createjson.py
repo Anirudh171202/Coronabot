@@ -1,7 +1,8 @@
 import json
 import os
-
+import re
 l = []
+import sys
 directory = os.getcwd()
 for file in os.listdir(directory):
 	if file.endswith(".txt"):
@@ -34,9 +35,33 @@ with open("data.txt","r") as f :
 	while True:
 		mode = input("Enter i to insert d to delete v to view e to exit")
 		if mode == "i":
-			question = input("Enter qs: ")
-			answer = input("Enter ans: ")
-			source = input("Enter source :")
+			question = []
+			answer = []
+			source = []
+			while True:
+				
+				try:
+					line = input('enter question : ')
+				except EOFError:
+					break
+				question.append(line)
+			while True:
+				try:
+					line = input('enter answer : ')
+				except EOFError:
+					break
+				answer.append(line)
+			while True:
+				try:
+					line = input('enter source : ')
+				except EOFError:
+					break
+				source.append(line)
+			question = ' '.join(question)
+			print("question: ", question)
+			answer= ' '.join(answer)
+			source= ' '.join(source)
+			
 			jsonData[question] = {"answer":answer, "source":source}
 			
 
