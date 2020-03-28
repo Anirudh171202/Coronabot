@@ -124,10 +124,6 @@
 - excellent
 - that's awesome
 
-## intent:opinion+negative
-- ugh
-- that sucks
-- woah! that's [expensive](price)
 
 ## intent:coronavirusaffectedmajor
 - by coronavirus?
