@@ -1,3 +1,4 @@
 GetOldTweets3==0.0.11
 pandas==1.0.3
 pysqlite3==0.4.2
+slacker==0.14.0
