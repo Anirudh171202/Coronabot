@@ -28,4 +28,4 @@ db.from_csv("WHOTwitterData.csv")
 
 db.print()
 
-print(*db.search("Corona is anirudh and vishnu anand, therefore pack your bags and run"), sep=",\n\t")
+print(*db.search("How to treat corona virus?"), sep=",\n\t")
