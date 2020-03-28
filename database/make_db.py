@@ -20,5 +20,10 @@
 # print(dumps(user_tweets))
 
 import pandas as pd
+from db import Database
 
-df = pd.read_csv("WHOTwitterData.csv")
+db = Database("database.db")
+
+db.from_csv("WHOTwitterData.csv")
+
+db.print()
