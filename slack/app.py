@@ -8,27 +8,23 @@ load_dotenv()
 
 # Initialize a Flask app to host the events adapter
 app = Flask(__name__)
-slack_events_adapter = SlackEventAdapter(
+event_adapter = SlackEventAdapter(
     os.getenv("SLACK_SIGNING_SECRET"), "/slack/events", app)
 
 # Initialize a Web API client
-slack_web_client = WebClient(token=os.getenv('SLACK_TOKEN'))
+client = WebClient(token=os.getenv('SLACK_TOKEN'))
 
 
-@slack_events_adapter.on("message")
+@event_adapter.on("message")
+@event_adapter.on("message.im")
 def message(payload):
-    """Display the onboarding welcome message after receiving a message
-    that contains "start".
     """
-    print(payload)
-
-
-@slack_events_adapter.on("message.im")
-def message(payload):
-    """Display the onboarding welcome message after receiving a message
-    that contains "start".
+    Display 
     """
-    print(payload)
+    channel = payload['event']['channel']
+    text = "Hello, World!"
+    client.chat_postMessage(text=text, channel=channel)
+    print(text)
 
 
 if __name__ == "__main__":
