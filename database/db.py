@@ -105,9 +105,6 @@ class Database:
     def search(self, query):
         text = query.split()
         scores = {}
-        # {
-        #   index[tweet] : score
-        # }
         for word in text:
             word = word.lower()
             if self.hist.get(word) == None:
@@ -128,7 +125,7 @@ class Database:
 
     def get(self, index):
         self.cursor.execute(
-            f"SELECT answer FROM data WHERE id = (?)", (index,))
+            f"SELECT answer, link FROM data WHERE id = (?)", (index,))
         return self.cursor.fetchone()[0]
 
     def all(self):
