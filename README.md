@@ -40,8 +40,8 @@ Keywords, links etc
 
 1. Write basic io
 2. make action.py to link w database
-3. add different paths
-4.refine
+3. add different path
+4. refine
 
 ### Server
 
