@@ -31,4 +31,22 @@
 29.why are we seeing a rise in cases of COVID-19
 30.what conditions kill COVID-19?
 
+31.when will a cure for COVID-19 be developed?
+32.should i consume methanol to cure corornavirus?
+33.what are the toxins i shouldn't take to cure COVID-19
+34.what are the common misconceptions about COVID-19
+35.is it safe to go to the gym 
+36.should i use disinfectant wipes
+37.can i order food or go to restaurants durin this time?
+38.can i go to work?
+39.Is soap effective in killing COVID-19
+40.Does lack of sleep increase my vulnerability
+41.should i stack up on food supplies?
+42.Should i use artifial ventillators if i don't have COVID-19
+43.Is conoravirus transmittable
+44.can a person test negative and later positive
+
+
+
+
 
