@@ -1,0 +1,1 @@
+{'can i go to work during this epidemic?': {'answer': 'Public health experts are recommending that companies encourage employees to work from home to prevent the potentially deadly coronavirus from spreading around offices, public transit and elsewhere.', 'source': 'https://time.com/5797382/coronavirus-remote-work-home/'}, '': {'answer': '', 'source': ''}}
