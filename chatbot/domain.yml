@@ -10,31 +10,30 @@ actions:
 - utter_helpline
 - utter_functions
 - utter_coronavirusaffectedmajor
-- utter_coronavirusmortaliltywhat
-- utter_COVID19likelycatch
-- utter_developingillnessrisk
+- utter_mortaliltywhatrate
+- utter_likelycatchhow
+- utter_developingriskwho
 - utter_protectshouldmyself
-- utter_nice_goodbye
-- utter_COVID19catchfrom
-- utter_surviveviruslong
+- utter_catchfrompet
+- utter_survivelongdoes
 - utter_contractsymptomsshould
 - utter_precautionsqaurantinetaken
-- utter_coronaknowhave
-- utter_hydroxychloroquinecoronaviruscure
-- utter_coronavirusspreaddoes
+- utter_protectshouldmyself
+- utter_knowhavehow
+- utter_hydroxychloroquinecureis
+- utter_spreaddoeshow
 - utter_outsidesafeis
-- utter_coronavirushumansspread
-- utter_COVID19Shouldtested
-- utter_COVID19testedwhere
+- utter_humansspreadthis
+- utter_shouldtestedfor
+- utter_testedwherecan
 - utter_communityoutbreakshould
-- utter_cleaningproductsCOVID19
-- utter_differentsymptomsCOVID19
-- utter_COVID19contactsomeone
+- utter_cleaningproductsprotect
+- utter_differentsymptomschildren
+- utter_contactsomeoneshould
 - utter_patientsdonateblood
 - utter_internationalpackagesrecieve
-- utter_COVID19seeingcases
-- utter_conditionsCOVID19what
-
+- utter_seeingcasesrise
+- utter_conditionscovid19what
 
 intents:
 - bot_challenge
@@ -51,29 +50,30 @@ intents:
 - fetch_functions
 - fetch_country
 - coronavirusaffectedmajor
-- coronavirusmortaliltywhat
-- COVID19likelycatch
-- developingillnessrisk
+- mortaliltywhatrate
+- likelycatchhow
+- developingriskwho
 - protectshouldmyself
-- COVID19catchfrom
-- surviveviruslong
+- catchfrompet
+- survivelongdoes
 - contractsymptomsshould
 - precautionsqaurantinetaken
-- coronaknowhave
-- hydroxychloroquinecoronaviruscure
-- coronavirusspreaddoes
+- protectshouldmyself
+- knowhavehow
+- hydroxychloroquinecureis
+- spreaddoeshow
 - outsidesafeis
-- coronavirushumansspread
-- COVID19Shouldtested
-- COVID19testedwhere
+- humansspreadthis
+- shouldtestedfor
+- testedwherecan
 - communityoutbreakshould
-- cleaningproductsCOVID19
-- differentsymptomsCOVID19
-- COVID19contactsomeone
+- cleaningproductsprotect
+- differentsymptomschildren
+- contactsomeoneshould
 - patientsdonateblood
 - internationalpackagesrecieve
-- COVID19seeingcases
-- conditionsCOVID19what
+- seeingcasesrise
+- conditionscovid19what
 
 responses:
   utter_cheer_up:
@@ -83,6 +83,8 @@ responses:
   - text: Did that help you?
   utter_goodbye:
   - text: Bye
+  action_fetchcases:
+  - text: No of cases is {}
   utter_greet:
   - text: Hey! How are you?
   utter_happy:
