@@ -24,25 +24,7 @@ A user interfaces with a chatbot to gain and validate information about the epid
 
 ## Steps ##
 
-1. Creating Database
-2. Connecting query to links
-3. Chat bot in Social Media Platform
-4. Server
-
-## Services ##
-
-### Database
-
-Scraping websites + APIs to get data to database <br>
-Keywords, links etc
-
-### Chat Bot
-
-1. Write basic io
-2. make action.py to link w database
-3. add different path
-4. refine
-
-### Server
-
-TODO
+1. Chat interface with user
+2. Detect and translate language
+3. RASA Chatbot with WHO and CDC question
+4. Serve back to user after translation
