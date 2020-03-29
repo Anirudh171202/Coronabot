@@ -168,15 +168,6 @@
 - risk
 - who
 
-## intent:protectshouldmyself
-- should wear mask protect myself
-- should i wear a mask to protect myself
-- to protect myself
-- protect myself
-- protect
-- should
-- myself
-
 ## intent:catchfrompet
 - can catch from my pet?
 - can i catch from my pet?

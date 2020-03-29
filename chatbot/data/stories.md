@@ -45,8 +45,6 @@
   - utter_likelycatchhow
 * developingriskwho
   - utter_developingriskwho
-* protectshouldmyself
-  - utter_protectshouldmyself
 * catchfrompet
   - utter_catchfrompet
 * survivelongdoes
