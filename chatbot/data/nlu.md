@@ -7,6 +7,12 @@
 - support
 - government
 
+## intent:fetch_country{"country": "India"}
+- how many cases of corona in [India](Country)
+- how many people have covid in [Norway](Country)
+- covid-19 cases in [America](Country)
+- slot{"name": "India"}
+
 ## intent:fetch_functions
 - what can you do
 - how to use
@@ -15,7 +21,6 @@
 - ability
 
 ## intent:goodbye
-- cu
 - good by
 - cee you later
 - good night
@@ -27,7 +32,6 @@
 - bye bye
 - see you later
 - bye
-- y
 - bye
 
 ## intent:greet
@@ -124,8 +128,12 @@
 - excellent
 - that's awesome
 
-
+## intent:opinion+negative
+- yuck
+- u gay
 ## intent:coronavirusaffectedmajor
+- what major areas affected by coronavirus?
+- what are the major areas affected by coronavirus?
 - by coronavirus?
 - areas affected by
 - the major areas
@@ -133,54 +141,56 @@
 - affected
 - major
 
-## intent:coronavirusmortaliltywhat
-- for coronavirus
+## intent:mortaliltywhatrate
+- what is mortalilty rate for
+- what is the mortalilty rate for
 - the mortalilty rate
-- 
-- coronavirus
+- mortalilty rate for
 - mortalilty
 - what
+- rate
 
-## intent:COVID19likelycatch
-- catch COVID-19
+## intent:likelycatchhow
+- how likely am catch
+- how likely am i to catch
 - how likely am
-- to catch COVID-19
-- COVID-19
+- to catch
 - likely
 - catch
+- how
 
-## intent:developingillnessrisk
+## intent:developingriskwho
+- who is at risk developing
+- who is at risk of developing the
 - of developing the
-- the illness
 - at risk of
 - developing
-- illness
 - risk
+- who
 
-## intent:protectshouldmyself
-- to protect myself
-- protect myself
-- protect
-- should
-- myself
-
-## intent:COVID19catchfrom
-- catch COVID-19 from
-- i catch COVID-19
-- COVID-19 from my
-- COVID-19
+## intent:catchfrompet
+- can catch from my pet?
+- can i catch from my pet?
+- i catch from
+- catch from my
+- my pet?
 - catch
 - from
+- pet?
 
-## intent:surviveviruslong
-- virus survive?
-- the virus survive?
+## intent:survivelongdoes
+- how long does survive?
+- how long does the survive?
+- the survive?
 - how long does
+- long does the
 - survive?
-- virus
 - long
+- does
 
 ## intent:contractsymptomsshould
+- what should do contract any symptoms
+- what should i do if i contract any of the symptoms
 - i contract any
 - the symptoms
 - what should i
@@ -189,6 +199,8 @@
 - should
 
 ## intent:precautionsqaurantinetaken
+- what precautions be taken for home qaurantine
+- what are the precautions to be taken for home qaurantine
 - the precautions to
 - home qaurantine
 - be taken for
@@ -197,68 +209,82 @@
 - taken
 
 ## intent:protectshouldmyself
+- what should do protect myself from
+- what should i do to protect myself from
 - to protect myself
-- What should i
+- what should i
 - protect myself from
 - protect
 - should
 - myself
 
-## intent:coronaknowhave
-- have corona
+## intent:knowhavehow
+- how do know have
+- how do i know if i have
 - i know if
-- i have corona
-- corona
+- i have
 - know
 - have
+- how
 
-## intent:hydroxychloroquinecoronaviruscure
+## intent:hydroxychloroquinecureis
+- :is hydroxychloroquine cure for
+- :is hydroxychloroquine a cure for
 - :is hydroxychloroquine a
-- for coronavirus
 - a cure for
 - hydroxychloroquine
-- coronavirus
 - cure
+- :is
 
-## intent:coronavirusspreaddoes
-- does coronavirus spread
-- coronavirus spread
-- How does coronavirus
-- coronavirus
+## intent:spreaddoeshow
+- how does spread
+- how does spread
+- does spread
+- how does spread
 - spread
 - does
+- how
 
 ## intent:outsidesafeis
+- is it safe go outside
+- is it safe to go outside
 - go outside
 - it safe to
 - outside
 - safe
 - is
 
-## intent:coronavirushumansspread
-- new coronavirus spread
+## intent:humansspreadthis
+- how did this new spread humans?
+- how did this new spread to humans?
 - to humans?
-- coronavirus spread to
-- coronavirus
+- new spread to
+- did this new
 - humans?
 - spread
+- this
 
-## intent:COVID19Shouldtested
-- for COVID-19
+## intent:shouldtestedfor
+- should be tested for
+- should i be tested for
 - be tested for
-- COVID-19
-- Should
+- tested for
+- should
 - tested
+- for
 
-## intent:COVID19testedwhere
-- for COVID-19
+## intent:testedwherecan
+- where can be tested for
+- where can i be tested for
 - be tested for
-- 
-- COVID-19
+- where can i
 - tested
 - where
+- can
 
 ## intent:communityoutbreakshould
+- what should do there is outbreak my community
+- what should i do if there is an outbreak in my community
 - my community
 - an outbreak in
 - what should i
@@ -266,31 +292,39 @@
 - outbreak
 - should
 
-## intent:cleaningproductsCOVID19
+## intent:cleaningproductsprotect
+- what cleaning products should use protect against
+- what cleaning products should i use to protect against
 - what cleaning products
 - cleaning products should
-- against COVID-19
+- to protect against
 - cleaning
 - products
-- COVID-19
+- protect
 
-## intent:differentsymptomsCOVID19
-- COVID-19 different in
-- Are symptoms of
-- of COVID-19 different
+## intent:differentsymptomschildren
+- symptoms different children than adults
+- are symptoms of different in children than adults
+- of different in
+- are symptoms of
+- in children than
 - different
 - symptoms
-- COVID-19
+- children
 
-## intent:COVID19contactsomeone
-- has COVID-19
+## intent:contactsomeoneshould
+- what should do had close contact with someone who has
+- what should i do if i had close contact with someone who has
 - close contact with
 - with someone who
-- COVID-19
+- what should i
 - contact
 - someone
+- should
 
 ## intent:patientsdonateblood
+- is it ok donate blood patients
+- is it ok if i donate blood to patients
 - to patients
 - i donate blood
 - donate blood to
@@ -299,6 +333,8 @@
 - blood
 
 ## intent:internationalpackagesrecieve
+- can recieve international packages during this time?
+- can i recieve international packages during this time?
 - recieve international packages
 - international packages during
 - i recieve international
@@ -306,20 +342,23 @@
 - packages
 - recieve
 
-## intent:COVID19seeingcases
-- of COVID-19
+## intent:seeingcasesrise
+- why we seeing rise cases
+- why are we seeing a rise in cases of
 - we seeing a
 - in cases of
-- COVID-19
+- a rise in
 - seeing
 - cases
+- rise
 
-## intent:conditionsCOVID19what
+## intent:conditionscovid19what
+- what conditions kill covid-19?
+- what conditions kill covid-19?
 - what conditions kill
-- kill COVID-19?
-- 
+- kill covid-19?
 - conditions
-- COVID-19?
+- covid-19?
 - what
 
 

@@ -33,83 +33,58 @@
 * greet
   - utter_greet
   - utter_functions
-
+* fetch_country{"country":"Country"}
+  - action_fetchcases
 * fetch_helpline
   - utter_helpline
 * coronavirusaffectedmajor
   - utter_coronavirusaffectedmajor
-
-* coronavirusmortaliltywhat
-  - utter_coronavirusmortaliltywhat
-
-* COVID19likelycatch
-  - utter_COVID19likelycatch
-
-* developingillnessrisk
-  - utter_developingillnessrisk
-
-* protectshouldmyself
-  - utter_protectshouldmyself
-
-* COVID19catchfrom
-  - utter_COVID19catchfrom
-
-* surviveviruslong
-  - utter_surviveviruslong
-
+* mortaliltywhatrate
+  - utter_mortaliltywhatrate
+* likelycatchhow
+  - utter_likelycatchhow
+* developingriskwho
+  - utter_developingriskwho
+* catchfrompet
+  - utter_catchfrompet
+* survivelongdoes
+  - utter_survivelongdoes
 * contractsymptomsshould
   - utter_contractsymptomsshould
-
 * precautionsqaurantinetaken
   - utter_precautionsqaurantinetaken
-
 * protectshouldmyself
   - utter_protectshouldmyself
-
-* coronaknowhave
-  - utter_coronaknowhave
-
-* hydroxychloroquinecoronaviruscure
-  - utter_hydroxychloroquinecoronaviruscure
-
-* coronavirusspreaddoes
-  - utter_coronavirusspreaddoes
-
+* knowhavehow
+  - utter_knowhavehow
+* hydroxychloroquinecureis
+  - utter_hydroxychloroquinecureis
+* spreaddoeshow
+  - utter_spreaddoeshow
 * outsidesafeis
   - utter_outsidesafeis
-
-* coronavirushumansspread
-  - utter_coronavirushumansspread
-
-* COVID19Shouldtested
-  - utter_COVID19Shouldtested
-
-* COVID19testedwhere
-  - utter_COVID19testedwhere
-
+* humansspreadthis
+  - utter_humansspreadthis
+* shouldtestedfor
+  - utter_shouldtestedfor
+* testedwherecan
+  - utter_testedwherecan
 * communityoutbreakshould
   - utter_communityoutbreakshould
-
-* cleaningproductsCOVID19
-  - utter_cleaningproductsCOVID19
-
-* differentsymptomsCOVID19
-  - utter_differentsymptomsCOVID19
-
-* COVID19contactsomeone
-  - utter_COVID19contactsomeone
-
+* cleaningproductsprotect
+  - utter_cleaningproductsprotect
+* differentsymptomschildren
+  - utter_differentsymptomschildren
+* contactsomeoneshould
+  - utter_contactsomeoneshould
 * patientsdonateblood
   - utter_patientsdonateblood
-
 * internationalpackagesrecieve
   - utter_internationalpackagesrecieve
-
-* COVID19seeingcases
-  - utter_COVID19seeingcases
-
-* conditionsCOVID19what
-  - utter_conditionsCOVID19what
+* seeingcasesrise
+  - utter_seeingcasesrise
+* conditionscovid19what
+  - utter_conditionscovid19what
 
 
 * goodbye
