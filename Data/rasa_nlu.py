@@ -40,4 +40,5 @@ with open("temp.md", "w+") as f:
         
         print(file=f)
 
-        print("- utter_"+re.sub('[^A-Za-z0-9]+', '', longest3words))
+        print("* "+re.sub('[^A-Za-z0-9]+', '', longest3words))
+        print("  - utter_"+re.sub('[^A-Za-z0-9]+', '', longest3words))
