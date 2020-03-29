@@ -33,7 +33,8 @@
 * greet
   - utter_greet
   - utter_functions
-
+* fetch_country{"country":"Country"}
+  - action_fetchcases
 * fetch_helpline
   - utter_helpline
 * coronavirusaffectedmajor

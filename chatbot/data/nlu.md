@@ -7,6 +7,12 @@
 - support
 - government
 
+## intent:fetch_country{"country": "India"}
+- how many cases of corona in [India](Country)
+- how many people have covid in [Norway](Country)
+- covid-19 cases in [America](Country)
+- slot{"name": "India"}
+
 ## intent:fetch_functions
 - what can you do
 - how to use
@@ -124,6 +130,9 @@
 - excellent
 - that's awesome
 
+## intent:opinion+negative
+- yuck
+- u gay
 
 ## intent:coronavirusaffectedmajor
 - by coronavirus?

@@ -5,6 +5,7 @@ actions:
 - utter_greet
 - utter_rephrase
 - utter_happy
+- action_fetchcases
 - utter_iamabot
 - utter_helpline
 - utter_functions
@@ -48,6 +49,7 @@ intents:
 - fetch_api
 - fetch_helpline
 - fetch_functions
+- fetch_country
 - coronavirusaffectedmajor
 - coronavirusmortaliltywhat
 - COVID19likelycatch
