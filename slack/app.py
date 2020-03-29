@@ -21,7 +21,7 @@ event_adapter = SlackEventAdapter(
 client = WebClient(token=os.getenv('SLACK_TOKEN'))
 
 # Initializing RASA Model
-agent = Agent.load("../chatbot/models/20200329-024355")
+agent = Agent.load("../chatbot/models/20200329-144319")
 
 
 @event_adapter.on("message")
