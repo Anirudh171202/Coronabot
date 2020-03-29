@@ -1,0 +1,1 @@
+{'Does methanal help cure corona': {'answer': 'No, methanal cannot be used to cure corona as is is highly toxic to human beings and can kill you in the process', 'source': 'https://www.who.int/'}}
