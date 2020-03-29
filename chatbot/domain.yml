@@ -93,7 +93,7 @@ responses:
   - text: India's covid helpline - +91-11-2397-8046
   utter_functions:
   - text: You can ask me anything about COVID-19 including clarification of doubts, validity of facts and number of live cases.
-   utter_coronavirusaffectedmajor:
+  utter_coronavirusaffectedmajor:
   - text: Over 25,000 people have died from COVID-19, as the illness is officially known, while more than 551,000 infections have been confirmed in at least 170 countries and territories. More than 127,000 people have recovered from the coronavirus. Italy, USA, and China are the 3 most affected countries.
   utter_mortaliltywhatrate:
   - text: The current mortality rate of COVID-19 is 0.05% (26,908 deaths for 587718 infected)
